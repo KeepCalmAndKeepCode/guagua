@@ -1,0 +1,281 @@
+{
+  "pages": [
+    //登录（完成）
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "农资经营电子台账追溯与监管系统",
+        "app-plus":{
+          "titleNView":{
+            "titleSize": "15px"
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/login/retrieveShop",
+      "style": {
+        "navigationBarTitleText": "找回密码"
+      }
+    },
+    {
+      "path": "pages/login/retrievePhone",
+      "style": {
+        "navigationBarTitleText": "找回密码"
+      }
+    },
+    {
+      "path": "pages/login/retrieveGetpassword",
+      "style": {
+        "navigationBarTitleText": "找回密码"
+      }
+    },
+    // 首页（完成）
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "呱呱农资",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "\ue717",
+              "fontSrc": "static/iconfont/iconfont.ttf",
+              "fontSize": "20px",
+              "color": "#136CAE"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/home/changePass",
+      "style": {
+        "navigationBarTitleText": "修改密码"
+      }
+    },
+    {
+      "path": "pages/home/set",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+
+    // 商品管理（完成）
+    {
+      "path": "pages/commodityManage/commodityManage",
+      "style": {
+        "navigationBarTitleText": "商品管理",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "新增",
+              "color": "#136CAE",
+              "fontSize": "15px"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/commodityManage/newGoods",
+      "style": {
+        "navigationBarTitleText": "新增商品",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "保存",
+              "fontSize": "16px",
+              "color": "#136CAE"
+            }]
+          }
+        }
+      }
+    },
+    // 采购入库（完成）
+    {
+      "path": "pages/procurementStorage/procurementStorage",
+      "style": {
+        "navigationBarTitleText": "采购入库"
+      }
+    },
+    {
+      "path": "pages/procurementStorage/purchase/orderForm",
+      "style": {
+        "navigationBarTitleText": "新增购货单"
+      }
+    },
+    {
+      "path": "pages/procurementStorage/queryOrder",
+      "style": {
+        "navigationBarTitleText": "查询购货单"
+      }
+    },
+    {
+      "path": "pages/procurementStorage/purchase/closeAccount",
+      "style": {
+        "navigationBarTitleText": "新增购货单结算"
+      }
+    },
+    {
+      "path": "pages/procurementStorage/purchase/selectSupplier",
+      "style": {
+        "navigationBarTitleText": "选择供应商"
+      }
+    },
+
+    {
+      "path": "pages/procurementStorage/purchase/newSupplier",
+      "style": {
+        "navigationBarTitleText": "新增供应商"
+      }
+    },
+
+    // 销货出库
+    {
+      "path": "pages/sales_outlet/sales_outlet",
+      "style": {
+        "navigationBarTitleText": "销货出库",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "新增",
+              "color": "#136CAE",
+              "fontSize": "15px"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/sales_outlet/new_sales_list/purchase",
+      "style": {
+        "navigationBarTitleText": "新增客户"
+      }
+    },
+
+    {
+      "path": "pages/sales_outlet/new_sales_list/choice",
+      "style": {
+        "navigationBarTitleText": "选择客户"
+      }
+    },
+    {
+      "path": "pages/sales_outlet/new_sales_list/newly",
+      "style": {
+        "navigationBarTitleText": "新增销货单"
+      }
+    },
+    {
+      "path": "pages/sales_outlet/new_sales_list/new_sales",
+      "style": {
+        "navigationBarTitleText": "新增销货单结算"
+      }
+    },
+    {
+      "path": "pages/sales_outlet/querySales",
+      "style": {
+        "navigationBarTitleText": "查询销货单"
+      }
+    },
+
+    // 资料管理
+    {
+      "path": "pages/data_management/material",
+      "style": {
+        "navigationBarTitleText": "资料管理"
+      }
+    },
+    {
+      "path": "pages/data_management/customer_management/data_management",
+      "style": {
+        "navigationBarTitleText": "客户管理",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "新增",
+              "color": "#136CAE",
+              "fontSize": "15px"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/data_management/customer_management/customer",
+      "style": {
+        "navigationBarTitleText": "新增客户"
+      }
+    },
+    {
+      "path": "pages/data_management/supplier_management/supplier",
+      "style": {
+        "navigationBarTitleText": "供应商管理",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "新增",
+              "color": "#136CAE",
+              "fontSize": "15px"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/data_management/supplier_management/addsupplier",
+      "style": {
+        "navigationBarTitleText": "新增供应商"
+      }
+    },
+    {
+      "path": "pages/data_management/account_management/addsettlement",
+      "style": {
+        "navigationBarTitleText": "新增结算用户"
+      }
+    },
+    {
+      "path": "pages/data_management/account_management/account",
+      "style": {
+        "navigationBarTitleText": "账户管理",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "新增",
+              "color": "#136CAE",
+              "fontSize": "15px"
+            }]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/data_management/warehouse_management/addware",
+      "style": {
+        "navigationBarTitleText": "新增仓库"
+      }
+    },
+    {
+      "path": "pages/data_management/warehouse_management/warehouse",
+      "style": {
+        "navigationBarTitleText": "仓库管理",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "新增",
+              "color": "#136CAE",
+              "fontSize": "15px"
+            }]
+          }
+        }
+      }
+    }
+
+
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

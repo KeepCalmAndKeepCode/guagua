@@ -1,0 +1,16 @@
+const domain = "http://apidemo.ggnz.veeteam.com/index.php/index/";
+export const login = domain + "Login";                      // 店铺登陆
+export const password = domain + "Login/password";          // 忘记密码
+export const Category = domain + "Category/index";          // 分类
+export const Goods = domain + "Goods/index";                // 商品列表与商品查询
+export const addGoods = domain + "Goods/add";               // 添加商品
+export const InvoiceAdd = domain + "Invoice/add";           // 添加购货单、添加购货退货单、添加销货单、添加销货退货单
+export const InvoiceLists = domain + "Invoice/lists";       // 订单列表
+export const InvoiceDetails = domain + "Invoice/details";   // 订单详情
+export const Contact = domain + "Contact/index/";           // 供应商与客户列表
+export const ContactAdd = domain + "Contact/add/";          // 供应商与客户列表添加
+export const StorageList = domain + "Storage/index/";       // 仓库列表
+export const StorageAdd = domain + "Storage/add/";          // 仓库添加
+export const AccountList = domain + "Account/index/";       // 账户列表
+export const AccountAdd = domain + "Account/add/";          // 账户添加
+export const Unit = domain + "Unit/index";                  // 计量单位
